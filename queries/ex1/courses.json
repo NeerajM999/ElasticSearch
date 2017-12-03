@@ -1,0 +1,24 @@
+{"create": {"_index": "university", "_type": "course" }}
+{"cid": 1001,"cname": "Learn Hive","skills": "Java | Linux","about": "In this course you will learn how to use Hive UDFs","start_dt": "1/10/17","duration": 4,"fee": 299}
+{"create": {"_index": "university", "_type": "course" }}
+{"cid": 1002,"cname": "Learn PIG","skills": "Java | Linux | Hive","about": "In this course you will learn how to build PIG scripts and UDFs","start_dt": "2/1/17","duration": 3.5,"fee": 249.99}
+{"create": {"_index": "university", "_type": "course" }}
+{"cid": 1003,"cname": "Shell Scripting","skills": "Basics of Linux","about": "Learn all you need to know about Shell scripting","start_dt": "1/15/17","duration": 2,"fee": 99}
+{"create": {"_index": "university", "_type": "course" }}
+{"cid": 1004,"cname": "Basics of Java","skills": "Novice","about": "Learn how to build simple Java programs","start_dt": "12/13/16","duration": 3.5,"fee": 199}
+{"create": {"_index": "university", "_type": "course" }}
+{"cid": 1005,"cname": "Advanced Java","skills": "Basics of Java","about": "Build advanced real life Java applications","start_dt": "2/14/17","duration": 4,"fee": 399}
+{"create": {"_index": "university", "_type": "course" }}
+{"cid": 1006,"cname": "Onboard with Big Data","skills": "Novice","about": "Learn how big data works and overview of associated technologies","start_dt": "3/1/17","duration": 1.5,"fee": 99}
+{"create": {"_index": "university", "_type": "course" }}
+{"cid": 1007,"cname": "Big Data for Professionals","skills": "Java | Linux","about": "Leverage big data technologies for your business","start_dt": "3/15/17","duration": 3.5,"fee": 499}
+{"create": {"_index": "university", "_type": "course" }}
+{"cid": 1008,"cname": "Hadoop - HDFS","skills": "Novice","about": "All you need to know about HDFS on hadoop platform","start_dt": "2/15/17","duration": 2.5,"fee": 149}
+{"create": {"_index": "university", "_type": "course" }}
+{"cid": 1009,"cname": "Python Scripting","skills": "Basics of Scripting","about": "Build awesome programs using Python","start_dt": "1/18/17","duration": 3,"fee": 199}
+{"create": {"_index": "university", "_type": "course" }}
+{"cid": 1010,"cname": "Advanced Python for Hackers","skills": "Basics of Python","about": "Hack major programs using Python scripts","start_dt": "2/18/17","duration": 4,"fee": 179}
+{"create": {"_index": "university", "_type": "course" }}
+{"cid": 1011,"cname": "ElasticSearch Basics","skills": "Linux | Big Data","about": "Learn about elasticsearch engine and mine information","start_dt": "4/11/17","duration": 4,"fee": 59}
+
+  

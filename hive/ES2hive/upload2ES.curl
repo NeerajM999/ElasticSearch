@@ -1,0 +1,2 @@
+curl -XPOST 'http://localhost:9200/research/candidate/_bulk?pretty&refresh' --data-binary "@candidate.json"
+

@@ -1,0 +1,17 @@
+curl -XPUT http://localhost:9200/_template/class-template?pretty -d '{
+	"template" : "class-*",
+	"mappings" : {
+		"subject":{
+			"properties":{
+				"start_date":{
+					"type" : "date",
+					"format": "MM/dd/yyyy"
+				},
+				"end_date":{
+					"type" : "date",
+					"format": "MM/dd/yyyy"
+				}
+			}
+	 	}
+	}
+}'

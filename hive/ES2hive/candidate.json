@@ -1,0 +1,24 @@
+{"index":{"_id":0,"_index":"research","_type":"candidate"}}
+{"age":34,"eyeColor":"green","name":"Goldie Landry","gender":"female","company":"PERMADYNE","email":"goldielandry@permadyne.com","phone":"+1 (946) 552-3912","latitude":59.018395,"longitude":-27.417007}
+{"index":{"_id":1,"_index":"research","_type":"candidate"}}
+{"age":40,"eyeColor":"green","name":"Ellen Rowe","gender":"female","company":"SHEPARD","email":"ellenrowe@shepard.com","phone":"+1 (897) 526-3350","latitude":35.974693,"longitude":-102.576478}
+{"index":{"_id":2,"_index":"research","_type":"candidate"}}
+{"age":26,"eyeColor":"green","name":"French Erickson","gender":"male","company":"PURIA","email":"frencherickson@puria.com","phone":"+1 (818) 462-2994","latitude":9.115504,"longitude":146.936005}
+{"index":{"_id":3,"_index":"research","_type":"candidate"}}
+{"age":28,"eyeColor":"brown","name":"Corina Boyer","gender":"female","company":"KANGLE","email":"corinaboyer@kangle.com","phone":"+1 (801) 587-2659","latitude":3.721153,"longitude":-10.233709}
+{"index":{"_id":4,"_index":"research","_type":"candidate"}}
+{"age":25,"eyeColor":"brown","name":"Harmon Curtis","gender":"male","company":"FUELTON","email":"harmoncurtis@fuelton.com","phone":"+1 (864) 504-2616","latitude":-44.277111,"longitude":-45.39844}
+{"index":{"_id":5,"_index":"research","_type":"candidate"}}
+{"age":29,"eyeColor":"green","name":"Constance Sargent","gender":"female","company":"KNEEDLES","email":"constancesargent@kneedles.com","phone":"+1 (840) 544-3413","latitude":-24.675439,"longitude":14.870772}
+{"index":{"_id":6,"_index":"research","_type":"candidate"}}
+{"age":25,"eyeColor":"brown","name":"Elva Sheppard","gender":"female","company":"NURPLEX","email":"elvasheppard@nurplex.com","phone":"+1 (860) 428-2691","latitude":-0.991191,"longitude":28.589142}
+{"index":{"_id":7,"_index":"research","_type":"candidate"}}
+{"age":23,"eyeColor":"brown","name":"Abby Graves","gender":"female","company":"EXTRO","email":"abbygraves@extro.com","phone":"+1 (825) 548-3424","latitude":-78.451143,"longitude":51.551682}
+{"index":{"_id":8,"_index":"research","_type":"candidate"}}
+{"age":32,"eyeColor":"green","name":"Douglas Fernandez","gender":"male","company":"NIKUDA","email":"douglasfernandez@nikuda.com","phone":"+1 (818) 405-3646","latitude":-67.020865,"longitude":-2.789037}
+{"index":{"_id":9,"_index":"research","_type":"candidate"}}
+{"age":35,"eyeColor":"brown","name":"Welch Franks","gender":"male","company":"UNI","email":"welchfranks@uni.com","phone":"+1 (947) 579-3352","latitude":47.885237,"longitude":151.855083}
+{"index":{"_id":10,"_index":"research","_type":"candidate"}}
+{"age":24,"eyeColor":"blue","name":"Stuart Pickett","gender":"male","company":"ZEPITOPE","email":"stuartpickett@zepitope.com","phone":"+1 (953) 493-2815","latitude":18.536652,"longitude":55.76643}
+
+

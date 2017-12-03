@@ -1,0 +1,24 @@
+## Which are the courses requiring Java as a skill but starting in or after March next year?
+
+#curl -XPOST http://localhost:9200/university/course/_search?pretty -d '{"query":{"bool":{"must":[{"range":{"start_dt":{"gt":"3/10/17"}}},{"term":{"skills":"java"}}]}}}'
+
+curl -XPOST http://localhost:9200/university/course/_search?pretty -d '{
+	"query":{
+		"bool":{
+			"must":[
+			{
+				"range": {
+					"start_dt":{
+						"gt": "3/10/17"
+					}
+				}
+			},
+			{
+				"term":{
+					"skills": "java"
+				}
+			}
+		  ]
+		}
+	}
+}'

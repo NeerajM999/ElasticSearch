@@ -1,0 +1,21 @@
+curl -X PUT http://localhost:9200/mortality
+
+
+curl -X PUT "http://localhost:9200/mortality/journalists/_mapping" -d '{
+  "journalists": {
+    "properties": {
+      "country_killed": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+	  "organization": {
+		"type" : "string",
+		"index": "not_analyzed"
+	  },
+	  "date":{
+		"type" : "date",
+		"format" : "MM/dd/yy"
+	  }
+    }
+  }
+}'

@@ -1,0 +1,5 @@
+curl -XPUT http://localhost:9200/class/subject/1?pretty -d '{
+    "classId" : 100,
+    "subject" : "ElasticSearch",
+    "about"   : "Learn ElasticSearch with hands on exercises"
+}'

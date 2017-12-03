@@ -1,0 +1,13 @@
+curl -XPOST http://localhost:9200/mapreduce/er911/_search?pretty -d '{
+  "query": {
+    "bool": {
+      "must": {
+        "term": {
+          "emergency": {
+            "value": "Fire: FIRE ALARM"
+          }
+        }
+      }
+    }
+  }
+}'

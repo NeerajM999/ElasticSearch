@@ -1,0 +1,17 @@
+curl -X PUT http://localhost:9200/mapreduce
+
+
+curl -X PUT "http://localhost:9200/mapreduce/er911/_mapping" -d '{
+  "er911": {
+    "properties": {
+      "emergency": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "township":{
+      	"type": "string",
+      	"index": "not_analyzed"
+      }
+    }
+  }
+}'

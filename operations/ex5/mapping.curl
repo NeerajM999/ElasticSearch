@@ -1,0 +1,8 @@
+curl -XPUT http://localhost:9200/class/subject/_mapping?pretty -d '{
+    "properties":{
+	   "start_date" : {
+	   "type" : "date",
+	   "format" : "MM/dd/yyyy"
+	 }
+	}
+}'

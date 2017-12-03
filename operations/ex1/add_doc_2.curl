@@ -1,0 +1,5 @@
+curl -XPUT http://localhost:9200/class/subject/2?pretty -d '{
+"classId" : 200,
+"subject" : "Big Data",
+"about"   : "Hadoop Ecosystem"
+}'

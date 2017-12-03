@@ -1,0 +1,7 @@
+curl -XPUT http://localhost:9200/class-es/subject/1?pretty -d '{
+    "subId" : 100,
+    "subject"  : "Big data",
+    "about"   : "learn big data with hands on exercises",
+	"start_date" : "11/11/2016",
+	"end_date" : "12/21/2017"
+}'

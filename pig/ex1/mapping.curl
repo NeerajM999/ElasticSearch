@@ -1,0 +1,13 @@
+curl -X PUT http://localhost:9200/games
+
+
+curl -X PUT "http://localhost:9200/games/year-2012/_mapping" -d '{
+  "year-2012": {
+    "properties": {
+      "publisher": {
+        "type": "string",
+        "index": "not_analyzed"
+      }
+    }
+  }
+}'

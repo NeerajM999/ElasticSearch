@@ -1,0 +1,37 @@
+## Which are the courses must requiring linux as skills and costs less than $250 or may have Java as skills but available in year 2017?
+
+
+curl -XPOST http://localhost:9200/university/course/_search?pretty -d '{
+	"query":{
+		"bool":{
+			"must":[{
+				"range":{
+					"fee":{
+						"lt":"250"
+						}
+					}
+				},
+				{
+				 "term":{
+				 	"skills":"linux"
+					}
+				}
+			],
+			"should":[{
+				"range":{
+					"start_dt":{
+						"gte":"1/1/17",
+						"lt":"12/31/17"
+						}
+					}
+				},
+				{
+				"term":{
+					"skills":"java"
+					}
+				}
+			]
+		}
+	}
+}'
+
